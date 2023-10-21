@@ -1,0 +1,67 @@
+.header{
+    display: flex;
+    height: 55px;
+    justify-content: space-between;
+    position:fixed;
+    align-items: center;
+    z-index:100;
+    border-bottom-width:1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228,228,228);
+    background-color: white;
+    right:0;
+    left:0;
+    top:0;
+}
+
+
+.left-section{
+    margin-left: 30px;
+    height:30px;
+    padding: 5px 8px 5px 8px;
+    border-radius: 5px;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    display: flex;
+    font-family: roboto mono;
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.right-section{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+
+    
+}
+
+
+.home-tab,.projects-tab, .about-me-tab, .contact-tab{
+
+}
+
+.nav-button{
+    font-family: roboto mono;
+    font-size: 15px;
+    padding: 5px 8px 5px 8px;
+    border:none;
+    background-color: white;
+    transition: background-color 0.2s;
+    border-radius: 2px;
+    white-space: nowrap;
+}
+
+.nav-button:hover{
+    cursor: pointer;
+    background-color: rgb(192,192,192);
+    
+}
+
+.nav-button:active{
+    background-color: rgb(220, 220, 220);
+    
+}

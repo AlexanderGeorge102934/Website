@@ -1,0 +1,21 @@
+.body-of-about{
+    align-items: left;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top:5px;
+    margin-left: 30px;
+    margin-right: 40px;
+    height: 600px;
+    width:500;
+    white-space: wrap;
+    background-color:antiquewhite;
+
+    
+}
+.Hello{
+    padding-top: 0;
+}
+.intro, .hobbies, .aspiration{
+    width: 700px;
+}

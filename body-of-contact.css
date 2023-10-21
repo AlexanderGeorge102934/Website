@@ -1,0 +1,15 @@
+.body-of-contact{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top:5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 500px;
+    white-space: wrap;
+    background-color:aquamarine;
+
+
+    
+}
